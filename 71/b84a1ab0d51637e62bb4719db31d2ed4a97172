@@ -1,0 +1,42 @@
+src/osascript.ts
+  s_ebae0e72a5ac58::t_8f4ae05af8b9e4 1-7
+  s_ebae0e72a5ac58::t_ad75f7518e35b2 13-18
+src/index.ts
+  s_ebae0e72a5ac58::t_0512728ffef20c 17-22
+  s_ebae0e72a5ac58::t_bc9b6567b38221 5
+  s_ebae0e72a5ac58::t_ded9f959cf5655 3,54-56,58,65-68,77-80,89-91,111-115
+  s_ebae0e72a5ac58::t_77b2f2036fe64a 6-16,23-53,57,59-64,69-76,81-88,92-96,108-110,116-126
+  s_ebae0e72a5ac58::t_e9ac6b9605ffe2 97-107
+tsconfig.json
+  s_ebae0e72a5ac58::t_02e056c884b63c 3-25
+package.json
+  s_ebae0e72a5ac58::t_7907345cd076c6 9
+  s_ebae0e72a5ac58::t_f96d63026ddca1 22-23
+build/index.js
+  s_ebae0e72a5ac58::t_2b81dab09b8d67 52806-52811
+  s_ebae0e72a5ac58::t_01242485802519 1-52688,52693-52714,52718-52805,52817-52840,52849-52860
+  s_ebae0e72a5ac58::t_bac37e654ede0b 52689-52692
+  s_ebae0e72a5ac58::t_4169e44e638491 52715-52717,52842-52847
+src/playback.ts
+  s_ebae0e72a5ac58::t_d28737c4dc245d 22-27
+src/playlists.ts
+  s_ebae0e72a5ac58::t_0f6a5ffb95c329 1-72
+README.md
+  s_ebae0e72a5ac58::t_96ca0db35ec804 3,5,7,11,13,18,20,22,28,30-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "71b84a1ab0d51637e62bb4719db31d2ed4a97172",
+  "prompts": {},
+  "sessions": {
+    "s_ebae0e72a5ac58": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_14c7244a3ffeRg085J2Y18lMzC",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Deepanshu Mishra <d4deepanshu723@gmail.com>"
+    }
+  }
+}
