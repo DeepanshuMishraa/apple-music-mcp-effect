@@ -1,6 +1,34 @@
 ## Apple Music MCP Server Built with Effect 
 
-This is basically an Apple Music MCP server which allows you to control some parts of your Apple Music through your agents 
+This is basically an Apple Music MCP server which allows you to control some parts of your Apple Music through your agents
+
+## Setup
+
+1. Clone the repo
+2. `bun install`
+3. `bun run build`
+4. Add to your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "apple-music": {
+      "command": "node",
+      "args": ["/path/to/effect-apple-music/build/index.js"]
+    }
+  }
+}
+```
+
+For opencode, add to `~/.config/opencode/opencode.json`:
+
+```json
+"apple-music": {
+  "type": "local",
+  "command": ["node", "/path/to/effect-apple-music/build/index.js"],
+  "enabled": true
+}
+``` 
 
 `Example: I can message my AI agent to poke through my iPhone to play something and it will play that on my Mac or any other Apple device. Mac is the choice for now.`
 
